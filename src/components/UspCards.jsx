@@ -9,7 +9,7 @@ const UspCards = () => {
   const minWidth = 50;
   const rotateThreshold = 220;
   const gap = 100;
-  const scrollSpeedFactor = 5;
+  const scrollSpeedFactor = 20;
 
   const handleScroll = (e) => {
     const scrollDelta = e.deltaY / scrollSpeedFactor;
